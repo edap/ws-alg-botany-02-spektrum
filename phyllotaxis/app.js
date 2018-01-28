@@ -39,6 +39,7 @@ function draw() {
     //
     fill((a-r) % 255,255,255);
     noStroke();
+    // TODO, check the p5 reference and draw another form
     ellipse(x, y, 4, 4);
   }
   if(i < max_number_of_points){
